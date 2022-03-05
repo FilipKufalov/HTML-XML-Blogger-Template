@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:version='2' class='v2' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='https://www.google.com/2005/gml/b' xmlns:data='https://www.google.com/2005/gml/data' xmlns:expr='https://www.google.com/2005/gml/expr'> 
+  <head>
+    <meta content='IE=EmulateIE7' http-equiv='X-UA-Compatible'/> 
+    <b:if cond='data:blog.isMobile'> 
+      <meta content='width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0' name='viewport'/> 
+    <b:else/> 
+      <meta content='width=1100' name='viewport'/> 
+    </b:if> 
+    <b:include data='blog' name='all-head-content'/> 
+    <title><data:blog.pageTitle/></title>
+   <b:skin>
+     <style>
+      body {
+      background-color: rgb(254, 255, 255);
+    }
+    div {
+        background-color: #373737;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        margin: 15px;
+        padding: 50px;
+    }
+    header, nav, footer {
+        background-color: #373737;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        margin: 15px;
+        padding: 20px;
+    }
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: inline-block;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    li a:hover {
+      background-color: #111;
+    }
+    #gridContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+    }
+    a {
+      color: red;
+    }
+  </style>
+   </b:skin>
+  </head>
+  <body>
+    <header><h1>Header Title</h1></header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Discord</a></li>
+        
+      </ul>
+    </nav>
+    <section id="gridContainer">
+      <div>Content 1</div>
+      <div>Content 2</div>
+      <div>Content 3</div>
+      <div>Content 4</div>
+      <div>Content 5</div>
+      <div>Content 6</div>
+      <div>Content 7</div>
+      <div>Content 8</div>
+    </section>
+    <footer>Template by <a href="https://github.com/FilipKufalov">Filip Kufalov</a></footer>
+  </body> 
+</html>
+
+ 
